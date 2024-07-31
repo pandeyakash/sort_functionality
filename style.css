@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: 2px solid lightcoral;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sort {
+  display: flex;
+  justify-content: center;
+}
+
+.sort-select {
+  width: 120px;
+}
+
+.sort-by-id,
+.sort-by-name {
+  margin: 0 10px;
+}

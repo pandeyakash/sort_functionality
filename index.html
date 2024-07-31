@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sort Functionality</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Users</h1>
+    <div class="sort">
+      <div class="sort-by-name">
+        <label for="sort-name">Sort By: Name</label>
+        <select name="name" class="sort-select" id="sort-name">
+          <option value="">Name</option>
+          <option value="aesc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+      <div class="sort-by-id">
+        <label for="sort-id">Sort By: Id</label>
+        <select name="id" class="sort-select" id="sort-id">
+          <option value="">Id</option>
+          <option value="aesc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
